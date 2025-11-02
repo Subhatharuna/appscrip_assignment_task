@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/appscrip_assignment_task/static/css/main.d41389fb.css",
+    "main.js": "/appscrip_assignment_task/static/js/main.2605569e.js",
+    "static/js/453.671de49d.chunk.js": "/appscrip_assignment_task/static/js/453.671de49d.chunk.js",
+    "index.html": "/appscrip_assignment_task/index.html",
+    "main.d41389fb.css.map": "/appscrip_assignment_task/static/css/main.d41389fb.css.map",
+    "main.2605569e.js.map": "/appscrip_assignment_task/static/js/main.2605569e.js.map",
+    "453.671de49d.chunk.js.map": "/appscrip_assignment_task/static/js/453.671de49d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d41389fb.css",
+    "static/js/main.2605569e.js"
+  ]
+}
