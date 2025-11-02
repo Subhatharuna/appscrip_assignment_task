@@ -1,0 +1,157 @@
+.footer-container{
+    background-color: black;
+    padding: 30px;
+}
+.foot-description1{
+    color: white;
+}
+.foot-description2{
+    display: none;
+}
+
+.foot-header{
+    color: white;
+    font-size: 18px;
+
+}
+.foot-paragraph{
+    color: white;
+
+}
+.email-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+.email-input{
+    height: 30px;
+    width: 200px;
+
+}
+.subscribe-button{
+    background-color: transparent;
+    height: 31px;
+    width: 130px;
+    color: gray;
+    border:solid 1px gray;
+
+}
+.small-line{
+    width: 100%;
+}
+.contactus-currency-container{
+    display: none;
+}
+
+.foot-span{
+    color: white;
+    font-size: 12px;
+
+}
+.foot-icon{
+    color: white;
+    font-size: 8px;
+
+}
+.currency-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.flag{
+    height: 23px;
+    width: 23px;
+    border: 0px;
+    border-radius: 100%;
+}
+.usa{
+    color: white;
+
+}
+.footer-section-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pay-img-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.pay-img{
+    height: 40px;
+    width: 60px;
+    border: none;
+    border-radius: 6px;
+}
+.large-footer{
+    display: none;
+}
+
+@media (min-width:577px) {
+    .subscribe-contact-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .foot-description1{
+        display: none;
+    }
+    .foot-description2{
+        display: block;
+        color: white;
+    }
+    .small-line{
+        display: none;
+    }
+    .call-container{
+        display: none;
+    }
+    .currency-container{
+        display: none;
+    }
+    .contactus-currency-container{
+        display: block;
+    }
+    
+    .currency{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer-section-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer{
+        display: none;
+    }
+    .large-footer{
+        display: block;
+    }
+    .foot-follow{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+    }
+    .foot-paragraph-img{
+        height: 20px;
+        width: 20px;
+        border: solid 1px white;
+        border-radius: 100%;
+        text-align: center;
+    }
+    .foot-follow-icon{
+        color: white;
+    }
+}

@@ -1,0 +1,29 @@
+.product-card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius: 7px;
+}
+.product-image{
+    height: 150px;
+    width: 100px;
+    align-self: center;
+}
+.info-like-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10PX;
+}
+.card-info{
+   font-size: 10px;
+}
+
+.like{
+    
+}
+.liked{
+    color: red;
+    font-size: 14px;
+}
